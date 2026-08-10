@@ -1,5 +1,6 @@
+TurnKey info     http://$ipaddr
 WebDAV (CGI):    https://$ipaddr
 Webmin:          https://$ipaddr:12321
-SMB/CIFS:        \\$ipaddr (ports 139/445)
+SMB/CIFS:        \\$ipaddr (port 445)
 FTP/FTPS:        root@$ipaddr (port 21)
 SSH/SFTP:        root@$ipaddr (port 22)
