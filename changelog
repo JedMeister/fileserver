@@ -20,6 +20,9 @@ turnkey-fileserver-19.0 (1) turnkey; urgency=low
   * Disable the [cdrom] share by default (commented out and documented); it
     only works on hardware with an optical drive and an fstab entry.
 
+  * Accessing file shares tested and confirmed from Windows 11 Pro - 25H2
+    (OS Build 26200.8875).
+
   * Upgraded base distribution to Debian 13.x/Trixie.
 
   * Replace TurnKey custom Debian-Installer based 'di-live' with new custom
@@ -165,7 +168,7 @@ turnkey-fileserver-19.0 (1) turnkey; urgency=low
 
   * Note: TLSv1.2 will be disabled by default in a future TurnKey release.
 
- -- Jeremy Davis <jeremy@turnkeylinux.org>  Fri, 07 Aug 2026 10:39:33 +1000
+ -- Jeremy Davis <jeremy@turnkeylinux.org>  Wed, 12 Aug 2026 09:52:08 +1000
 
 turnkey-fileserver-18.0 (1) turnkey; urgency=low
 
