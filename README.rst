@@ -25,7 +25,8 @@ and on top of that:
       
       - Users home directory.
       - Public storage.
-      - CD-ROM with automount and umount hooks (/media/cdrom).
+      - CD-ROM configuration with automount and umount hooks (/media/cdrom).
+        (disabled by default).
 
    - NOTE: Due to the removal of libpam-smbpass (see `issue #1188`_), new Samba
      users must have their passwords explictly set separately when created.
@@ -47,7 +48,7 @@ and on top of that:
    - Pre-configured authentication (Samba).
    - Pre-configured repositories (storage, user home directories).
 
-- Default storage: */srv/storage*
+- Default shared storage: */srv/storage*
 - Accessing file server via samba on the command line::
 
     smbclient //1.0.0.61/storage -Uroot
@@ -56,7 +57,7 @@ and on top of that:
 Credentials *(passwords set at first boot)*
 -------------------------------------------
 
--  Webmin, Webshell, SSH, Samba: username **root**
+-  Webmin, SSH, Samba: username **root**
 -  Web based file manager (WebDAV CGI):
    
    - username **root** (or Samba users)
